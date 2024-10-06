@@ -6,7 +6,7 @@ body{
     font-size: 16px;
     width:70% ;
     max-width: 980px;
-    min-width: 100px;
+    min-width: 500px;
     overflow-y:auto;/*horizontal scrollbar*/
     overflow-x: hidden;/*hide vertical scrollbar*/
     
@@ -27,7 +27,7 @@ h2{
     margin: 0 auto;
     height: 70px;
     padding:.5rem 0;
-
+    min-width: 500px;
 }
 
 
@@ -38,7 +38,7 @@ h2{
     justify-content: space-between;
     
     flex-wrap: nowrap;
-    padding-left: 60px;
+    padding-left: 30px;
 
     
    
@@ -52,7 +52,7 @@ h2{
         display: flex;
         gap: 15px;
         flex-wrap: nowrap ;
-        padding-right:60px ;
+        padding-right:40px ;
         justify-content: end;
         width: 25px;
 
@@ -63,7 +63,13 @@ h2{
         background-color:#dadbf1 ;
         text-align: center;
       padding: .5rem 0 1.5rem 0;
+      min-width: 500px;
       width: 100vw; /*full page width*/
+          display: flex;
+          column-gap: 10px;
+       flex-direction: column;
+
+         
 
     
      }
@@ -139,8 +145,9 @@ h2{
    display: flex;
    justify-content: center;
    justify-content: space-evenly;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    padding-top: 50px;
+   min-width: 500px;
 }
   
    
