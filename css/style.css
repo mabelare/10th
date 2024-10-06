@@ -161,9 +161,10 @@ height: 150px;
    
 }
 .columns p{
+   width: 250px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    position: relative;
    left:49px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a{
    text-decoration: none;
