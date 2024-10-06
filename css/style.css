@@ -71,16 +71,21 @@ h2{
           display: flex;
           column-gap: 10px;
        flex-direction: column;
+       flex-wrap: nowrap;
+       
 
          
 
     
      }
      #sect input[type="Search"]{
-        width: 450px;
-        height: 40px;
+        width: 30%;
+        height: 50px;
         border: 1px solid black;
         padding: .5em solid black;
+        box-sizing: border-box;
+        max-width: 400px;
+        min-width: 100px;
         
  }
 
